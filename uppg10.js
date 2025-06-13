@@ -8,7 +8,9 @@ function uppg10(){
     // other ska innehålla alla andra tal
     // returnera ett objekt med de tre arrayerna
 
-  
+  let namn = "samuel";
+   console.log(X);
+
     
   
   }
