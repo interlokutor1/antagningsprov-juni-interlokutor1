@@ -10,7 +10,37 @@ function uppg8(){
 //  över 30 år som skrivs ut i konsolen
 
 // anropa funktionen och skicka med arrayen som argument
+let personer = [
+        {
+            name: "Samuel",
+            age: 18
+        },
+        {
+            name: "Mikael",
+            age: 58
+        },
+        {
+            name: "Carl XVI Gustav",
+            age: 79
+        },
+        {
+            name: "Engelbrekt Engelbrektson",
+            age: 630
+        },
+        {
+            name: "Snorre Sturlasson",
+            age: 846
+        }
+    ]
 
+    function skrivUtÖver30(array){
+        for(let i = 0; i < array.length; i++){
+            if(array[i].age > 30)
+                console.log(array[i].name);
+        }
+    }
+
+    skrivUtÖver30(personer);
 
 }
 
